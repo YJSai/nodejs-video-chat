@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<video width="450" height="255" id="local-video" autoplay></video>
+<video width="450" height="255" id="remote-video" autoplay></video>
+<br>
+<textarea id="chatView"></textarea>
+<input type="text" id="chatInput"><button id="chatSubmit">chatSubmit</button>
+<br>
+<button id="connect">connect</button>
+<button id="video">video</button>
+<button id="stop">stop</button>
+<br>
+<canvas id="canvas" width="450" height="255"></canvas>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/libs/jquery-3.2.1.min.js"></script>
+<script src="/js/libs/drawingSerializer.js"></script>
+<script src="/js/libs/signature.js"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>
